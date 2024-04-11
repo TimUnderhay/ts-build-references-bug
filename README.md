@@ -8,7 +8,7 @@ This is a reproduction of issue https://github.com/microsoft/TypeScript/issues/4
 * From repo root, run `npm install`.
 * `cd projects/server`
 * `npm run build`
-*   -- is `rm -rf dist/ && tsc --build tsconfig.build.json -v`
+* (is just `rm -rf dist/ && tsc --build tsconfig.build.json -v`)
 * Check `dist/shared/src` output.  Notice that only the shared logging module was built.  'errors.ts' and 'global-type-overrides.ts' should be there based on the include pattern, but they aren't.
 
 ## It Gets Even Weirder
