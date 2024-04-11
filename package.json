@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "typescript": "5.4.5"
+  },
+  "scripts": {
+    "postinstall": "cd projects/server && npm i && cd ../shared && npm ci"
+  }
+}

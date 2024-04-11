@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.options.json",
+  "files": [],
+  "references": [
+    {
+      "path": "projects/server"
+    },
+    {
+      "path": "projects/shared"
+    }
+  ]
+}

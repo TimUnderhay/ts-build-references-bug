@@ -1,0 +1,14 @@
+{
+  "name": "shared",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "tslib": "^2.5.3"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "@types/node": "^20.11.28"
+  }
+}
